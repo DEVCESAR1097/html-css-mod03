@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Tabelas</title>
+    <style>
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+        table {
+            width: 500px;
+            height: 500px;
+            border: 5px solid gray;
+            border-collapse: collapse;
+        }
+
+        td {
+            font-size: 1.5em;
+            font-weight: bold;
+            font-style: italic;
+            background-color: rgba(169, 169, 169, 0.299);
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            
+        }
+
+        tr.line {
+            background-color: teal;
+        }
+
+        td.dado0 {
+            text-align: left;
+        }
+
+        td.dado1 {
+            background-color: darkgray;
+            vertical-align: bottom;
+        }
+
+        td.dado2 {
+            vertical-align: top;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Testando Tabelas</h1>
+        <tr class="line">
+            <td class="dado0">A1</td>
+            <td class="dado1">B1</td>
+            <td class="dado2">C1</td>
+        </tr>
+        <tr class="line">
+            <td class="dado0">A2</td>
+            <td class="dado1">B2</td>
+            <td class="dado2">C2</td>
+
+        </tr >
+        <tr class="line">
+            <td class="dado0">A3</td>
+            <td class="dado1">B3</td>
+            <td class="dado2">C3</td>
+        </tr>
+        <tr class="line">
+            <td class="dado0">A4</td>
+            <td class="dado1">B4</td>
+            <td class="dado2">C4</td>
+        </tr>
+    </table>
+</body>
+</html>
